@@ -218,3 +218,59 @@ main {
     /* align-items: center; */
     border-radius: 16px;
 }
+
+/* ............Targets Section Start.............. */
+
+.first-target-title{
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800px;
+}
+.first-target-des{
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 16px;
+    color:#0D1321 ;
+}
+.skills-container{
+    /* border: 3px solid tomato; */
+    margin-bottom: 111px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    /* border-radius: 16px; */
+}
+
+.skill-name{
+    /* border: 3px solid green; */
+    padding: 40px;
+    text-align: start;
+    border-radius: 16px;
+}
+.skill-image{
+    margin-bottom: 24px;
+}
+.skill-title{
+    font-size: 24px;
+    font-weight: 800px;
+    margin-bottom: 8px;
+}
+.skill-des{
+    font-size: 16px;
+    color: #0D1321 ;
+    margin-bottom: 24px ;
+}
+.skill-name a{
+    color: #0D1321;
+}
+
+.skill-color1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.skill-color2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.skill-color3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
