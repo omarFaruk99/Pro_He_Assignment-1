@@ -6,6 +6,21 @@
   font-style: normal;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* linear gradient to right */
+/* .linear-gra-right{
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.linear-gra-left{
+    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+} */
+
+
 /* banner background setup */
 .banner-bg{
     background-image: url(../assets/Hero-bg.png);
@@ -74,61 +89,114 @@ nav{
     border-radius: 8px;
 }
 /* set main section width */
-main{
+/* main{
     max-width: 1140px;
     margin: 0 auto;
-}
-.web-dev-head{
-    background-color: rgba(13, 19, 33, 0.02);
-    margin: 74px 152px 90px 148px ;
-    padding: 80px 97px;
+} */
 
+/* ........................................... */
+main {
+    width: 80%;
+    max-width: 1140px;
+    margin: 0 auto; 
 }
 
-.web-dev-container{
+.why-web-development .inner-card {
     display: flex;
-    /* gap:32px ; */
     justify-content: space-around;
-    padding: 48px;
-    border-radius: 16px;
-    /* remove this */
-    border: 1px solid;   
-} 
-
-
-
-
-.web-dev-head >h3{
-    text-align: center;
-    margin-bottom: 24px;
-    font-size: 32px;
-    font-weight: 800px;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
 }
 
-.web-dev-head >p{
+.cards{
+    /* border: 10px solid green; */
+}
+.card{
+    /* border: 5px solid tomato; */
+    padding:48px ;
+}
+.inner-card{
+    /* border: 2px solid blue; */
+}
+
+.container{
+    /* ....... */
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+    margin-top: 74px;
+    border-radius: 16px;
+
+}
+.why-web-development h2{
     text-align: center;
-    margin-bottom: 48px ;
+    font-size: 32;
+    font-weight: 800px;
+    margin-bottom: 24px;
+}
+.why-web-development p{
+    text-align: center;
     font-size: 16px;
-    font-weight: 400px;
+    margin-bottom: 48px;
+    color: rgba(13, 19, 33, 1);
+}
+
+.card-content{
+    /* border: 1px solid; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.why-web-development img{
+    /* border: 1px solid sienna; */
+}
+
+.web-img1{
+    margin-left: 98px;
+}
+.web-img2{
+    margin-right: 32px;
+}
+.web-img3{
+    margin-left: 133px;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600px;
+    border: 1px solid black;
+    text-decoration: none;
+    margin-top: 32px;
+}
+.btn a{
+    text-decoration: none;
     color: #0D1321;
 }
+ 
+.card-content h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 16px;
+    text-align: left;
 
-.web-dev-con-mar32{
-    margin-bottom: 32px;
 }
+.card-content p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(13, 19, 33, 1);
+    margin-bottom: 32px;
+    text-align: left;
+
+}
+
 /* linear gradient to right */
 .linear-gra-right{
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 16px;
 }
-/* linear gradient to left */
 .linear-gra-left{
     background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 16px;
 }
 
-.web-dev-img1{
-    margin-left: 98px;
-}
 
-.web-dev-con1{
-
-}
