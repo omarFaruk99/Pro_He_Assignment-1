@@ -332,3 +332,26 @@ main {
     background-color: #FFFFFF;
     border: none;
 }
+
+/* ...........footer............. */
+.footer-container{
+    border: 5px solid blueviolet;
+
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid green;
+    margin: 32px 150px;
+    
+}
+.footer-title{
+    margin-top: 6.5px ;
+    margin-bottom: 6.5px;
+    margin-right: 526px;
+    
+}
+.socil-media{
+    margin-top: 6.5px ;
+    margin-bottom: 6.5px;
+}
