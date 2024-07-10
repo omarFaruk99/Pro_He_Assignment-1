@@ -335,23 +335,37 @@ main {
 
 /* ...........footer............. */
 .footer-container{
-    border: 5px solid blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 5px solid blueviolet; */
+    background-color: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    
+    
+   
 
 }
 .footer-items{
+    width: 1140px;
     display: flex;
-    justify-content: space-between;
-    border: 3px solid green;
-    margin: 32px 150px;
+    align-items: center;
+    gap: 527px;
+    margin-left: 150px;
+    margin-right: 150px;
     
 }
 .footer-title{
     margin-top: 6.5px ;
     margin-bottom: 6.5px;
-    margin-right: 526px;
+    /* margin-right: 526px; */
+    font-size: 20px;
+    font-weight: 600px;
     
 }
 .socil-media{
+    display: flex;
+    gap: 24px;
     margin-top: 6.5px ;
     margin-bottom: 6.5px;
 }
