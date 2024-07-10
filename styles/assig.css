@@ -100,7 +100,7 @@ main {
     padding:48px ;
 }
 
-.container{
+.why-web-development .container{
     /* ....... */
     background-color: rgba(13, 19, 33, 0.02);
     padding: 80px 97px;
@@ -177,4 +177,44 @@ main {
     border-radius: 16px;
 }
 
+/* margin why-web-development section */
+.why-web-development{
+    margin-bottom: 90px;
+}
 
+/* .............."Main"......section-"my Inspiration".....Start........ */
+
+.my_inspiration{
+    margin-bottom: 151px;
+}
+.inspiration-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800px;
+    color: #0D1321;
+    margin-bottom: 24px;
+
+}
+.inspiration-des{
+    text-align: center;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 1);
+    margin-bottom: 48px;
+}
+
+.inspiration-video{
+    border-radius: 16px;
+    
+}
+.youtube-video{
+    border: .5px solid rgba(13, 19, 33, 0.2);;
+    padding: 32px;
+    border-radius: 16px;
+    overflow: hidden;
+    align-items: center;
+    
+}
+.youtube-video iframe{
+    /* align-items: center; */
+    border-radius: 16px;
+}
