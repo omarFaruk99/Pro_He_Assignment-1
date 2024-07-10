@@ -274,3 +274,61 @@ main {
 .skill-color3{
     background-color: rgba(255, 223, 0, 0.05);
 }
+
+/* ............Section-Support..........start here */
+.suppot-bg{
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: darken; 
+
+}
+.need-support{
+    border:1px solid white;
+    margin-bottom: 80px;
+    border-radius: 16px;
+}
+.support-container{
+    /* border: 5px solid goldenrod; */
+    margin: 64px 48px;
+}
+.support-title{
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: 700px;
+    text-align: center;
+    /* transform: translate(-50%, -50%); */
+    color: #FFFFFF;
+
+}
+.support-des{
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.message-me input[type="text"]{
+    /* display: inline-block */
+    width: 548px;
+    height: 57px;
+    padding: 19px 215px 19px 20px ;
+    font-size: 16px ;
+    color: rgba(13, 19, 33, 0.4);
+    border-radius: 8px;
+    margin-right: 16px;
+    margin-left: 180px;
+    border: none;
+}
+.message-me input[type="submit"]{
+    /* display: flex; */
+    width: 120px;
+    height:57px ;
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight: 600px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border: none;
+}
